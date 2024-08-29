@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    perspective: 700px;
+}
+
+.back {
+    background-color: gray;
+    transform: rotatey(180deg);
+}
+
+.back-info {
+    margin-top: 20%;
+    text-align: center;
+}
+
+.back-p,
+.back-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    color: rgb(249, 245, 245);
+    font-weight: bold;
+}
+
+.back-h3 {
+    font-size: 30px;
+}
+
+.back-p {
+    font-weight: bold;
+    font-size: 20px;
+    color: crimson;
+}
+
+.back-button {
+    padding: 8px 20px;
+    font-size: 15px;
+    background-color: rgb(95, 176, 95);
+    border: none;
+}
+
+.back,
+.front {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.service-container {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.service-h1 {
+    text-align: center;
+    padding-top: 8%;
+    text-shadow: 2px 2px 3px rgb(80, 137, 252);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.service-div8 {
+    overflow: auto;
+    margin-top: 5%;
+}
+
+.service-div01 {
+    float: left;
+    width: 25%;
+    transition: 2s;
+    position: relative;
+    transform-style: preserve-3d;
+    margin-left: 6.5%;
+}
+
+.div2 {
+    /* margin: 0px 5%; */
+}
+
+.div02 {
+    margin-top: 50px;
+}
+
+.service-div01,
+.front,
+.back {
+    width: 220px;
+    height: 220px;
+    transform-style: preserve-3d;
+}
+
+.service-div01:hover {
+    transform: rotatey(180deg);
+}
+
+.front {
+    z-index: 1;
+    background-color: white;
+    backface-visibility: hidden;
+    box-shadow: 2px 2px 50px 15px black inset;
+}
+
+.front-img {
+    background-size: cover;
+    width: 200px;
+    height: 150px;
+    margin: 20px 13px;
+}
+
+.front-img6 {
+    width: 180px;
+    height: 150px;
+    margin: 20px 13px;
+}
+
+.front-img4 {
+    width: 160px;
+    height: 150px;
+    margin: 30px 0px 30px 20px;
+}
